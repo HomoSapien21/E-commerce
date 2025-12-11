@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app {
+    max-width: 1240px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-shadow: 0 0 35px #eee;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+@import "./components/header/header.scss";
+@import "./components/pages/products/products.scss";
+@import "./components/pages/utils/productlist.scss";
+@import "./components/pages/utils/ProductDetails/product.scss";
+@import "./components/pages/login/login_reg.scss";
+@import "./components/pages/cart/cart.scss";

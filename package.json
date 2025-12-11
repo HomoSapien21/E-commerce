@@ -1,0 +1,19 @@
+{
+    "name": "mern-ecommerce",
+    "version": "1.0.0",
+    "description": "MERN E-commerce Project",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "server": "cd server && npm install && npm start",
+        "client": "cd client && npm install && npm start",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "heroku-postbuild": "cd client && npm install && npm run build"
+    },
+    "dependencies": {
+        "concurrently": "^8.2.0"
+    },
+    "engines": {
+        "node": "18.x"
+    }
+}

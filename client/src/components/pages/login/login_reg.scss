@@ -1,0 +1,75 @@
+.login-page,
+.register-page {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+
+            &:focus {
+                outline: none;
+                border-color: darkcyan;
+                box-shadow: 0 0 5px rgba(0, 139, 139, 0.3);
+            }
+
+            &::placeholder {
+                color: #999;
+            }
+        }
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+
+            button {
+                width: 100%;
+                padding: 15px;
+                background: #333;
+                color: #fff;
+                border: none;
+                border-radius: 6px;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background: darkcyan;
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                }
+
+                &:active {
+                    transform: translateY(0);
+                }
+            }
+
+            a {
+                color: darkcyan;
+                text-decoration: none;
+                font-size: 14px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    color: #333;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
