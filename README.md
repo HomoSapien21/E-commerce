@@ -6,8 +6,8 @@ A full-stack E-commerce application built using the **MERN** stack (MongoDB, Exp
 
 -   **User Authentication**: Register, Login, Logout, and Token-based authentication (JWT).
 -   **Product Management**: 
-    -   Admin can Add, Edit, and Delete products.
-    -   Users can View products.
+    -   **Admin Only**: Create, Edit, and Delete products securely.
+    -   **Users**: View products and details.
 -   **Advanced Filtering**: Sort by price, filter by category, pagination, and search.
 -   **Shopping Cart**: 
     -   Add/Remove items.

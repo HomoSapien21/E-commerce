@@ -42,6 +42,7 @@ mongoose.connection.on('disconnected', () => {
 
 // Routes
 app.use('/api', require('./routes/productRouter'));
+app.use('/api', require('./routes/categoryRouter'));
 app.use('/user', require('./routes/userRouter'));
 
 
